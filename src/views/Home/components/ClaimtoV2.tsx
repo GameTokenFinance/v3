@@ -94,7 +94,7 @@ const ClaimtoV2 = () => {
     <StyledCakeStats> 
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'Claim to GME v2')}
+          {TranslateString(534, 'Claim to GME v3')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(536, 'Claim description')}</Text>
