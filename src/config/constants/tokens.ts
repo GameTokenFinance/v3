@@ -12,6 +12,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://gametoken.finance/',
   },
+  gmeV2: {
+    symbol: 'GMEv3',
+    address: {
+      56: '0xdd87df4697527e6fbc5586cb0105bd8ab0fa7a61',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://gametoken.finance/',
+  },
 
   mdo: {
     symbol: 'MDO',

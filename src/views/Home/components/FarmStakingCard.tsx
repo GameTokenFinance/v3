@@ -8,6 +8,7 @@ import useFarmsWithBalance from 'hooks/useFarmsWithBalance'
 import UnlockButton from 'components/UnlockButton'
 import CakeHarvestBalance from './CakeHarvestBalance'
 import CakeWalletBalance from './CakeWalletBalance'
+import CakeV2WalletBalance from './CakeV2WalletBalance'
 
 const StyledFarmStakingCard = styled(Card)`
   background-image: url('/images/controller-bg.svg');
@@ -68,6 +69,10 @@ const FarmedStakingCard = () => {
         <Block>
           <Label>{TranslateString(546, 'GME in Wallet')}:</Label>
           <CakeWalletBalance />
+        </Block>
+        <Block>
+          <Label>{TranslateString(546, 'GMEv3 in Wallet')}:</Label>
+          <CakeV2WalletBalance />
         </Block>
         <Actions>
           {account ? (
