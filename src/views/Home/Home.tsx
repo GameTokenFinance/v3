@@ -97,10 +97,7 @@ const Home: React.FC = () => {
         <Cards>
           <ClaimtoV2 />
         </Cards>
-        <Cards>
-          <CakeStats />
-          <TotalValueLockedCard />
-        </Cards>
+        
       </div>
 
     </Page>
