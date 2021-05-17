@@ -277,7 +277,7 @@ export const useTotalValue = (): BigNumber => {
       if(!tokenPriceUsd) tokenPriceUsd = 0
 
       const val = new BigNumber(getBalanceNumber(pool.totalStaked)).times(tokenPriceUsd)
-      value = value.plus(val)
+      value = value.plus(val) 
     }
   }
 
